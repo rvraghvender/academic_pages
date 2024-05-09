@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Raghvender / Homepage"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Raghvender"
 description              : &description "personal description"
-url                      : https://rvraghvender.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://rvraghvender.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rvraghvender/rvraghvender.github.io"
 
@@ -21,7 +21,7 @@ repository               : "rvraghvender/rvraghvender.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_me.jpg"
   name             : "Raghvender"
   pronouns         : "He/Him"  
   bio              : "Computational Material Science Researcher"
