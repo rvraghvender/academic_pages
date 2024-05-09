@@ -21,7 +21,7 @@ repository               : "rvraghvender/rvraghvender.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_me.jpg"
+  avatar           : "profile_me.png"
   name             : "Raghvender"
   pronouns         : "He/Him"  
   bio              : "Computational Material Science Researcher"
