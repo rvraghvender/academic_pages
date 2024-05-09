@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Raghvender | Homepage"
+title                    : "Raghvender / Homepage"
 title_separator          : "-"
 name                     : &name "Raghvender"
 description              : &description "personal description"
@@ -26,7 +26,7 @@ author:
   pronouns         : "He/Him"  
   bio              : "Computational Material Science Researcher"
   location         : "France"
-  employer         : "University of ***"
+  employer         : "University of "
   uri              : # URL
   email            : "rvraghvender@gmail.com" 
 
