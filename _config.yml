@@ -26,28 +26,24 @@ author:
   pronouns         : "He/Him"  
   bio              : "Computational Material Science Researcher"
   location         : "France"
-  employer         : "University of "
+  employer         : "University of XXX"
   uri              : # URL
   email            : "rvraghvender@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=tb56_UwAAAAJ&hl=en"
-  impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-6944-3796"
-  pubmed           : ""
   researchgate     : "https://www.researchgate.net/profile/Raghvender-Pandey" # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "https://github.com/rvraghvender"
+  github           : "rvraghvender"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  linkedin         : # Username
+  linkedin         : # "https://www.linkedin.com/in/raghvenderpandey/"
   telegram         : # URL
   twitter          : # Username for X / Twitter
   youtube          : # Username
