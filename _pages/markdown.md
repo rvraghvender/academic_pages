@@ -5,8 +5,32 @@ author_profile: true
 redirect_from: 
   - /md/
   - /markdown.html
+  - /extras.html
 ---
+  
+## Materials Science codes
+* [Amorphy](https://github.com/rvraghvender/amorphy): During my doctoral studies, I collaborated with Dr. Assil Bouzid to develop "amorphy" for the structural and electronic analysis of amorphous materials. This involved computing PDF, coordination numbers, and charge analysis. The project targets complex challenges in structural analysis, including distinguishing bridging and non-bridging oxygen roles in physical and chemical properties. Furthermore, by harnessing the "numba" Python library to translate a subset of Python code into fast machine code, "amorphy" achieves high computational efficiency, especially beneficial for the demanding nature of amorphous systems' analysis.
+* [Radial distribution function](https://github.com/rvraghvender/MDTraj): Small C++ code to compute radial distribution function between two atomic pairs.
 
+## GitHub projects
+* [Car detection using YOLO](https://github.com/rvraghvender/DeepLearningProjects/tree/main/ConvolutionNeuralNetworks/AutonomousDrivingApplicationCarDetection) – Developed real-time accurate car-detection in images and videos using CNN.
+* [Human Image segmentation](https://github.com/rvraghvender/Tech-Test-ML-Hand/blob/main/HandMasking.ipynb) – Implemented an image segmentation solution to precisely identify and separate human subjects within images using TensorFlow framework.
+* [Face recognition using FaceNet](https://github.com/rvraghvender/DeepLearningProjects/tree/main/ConvolutionNeuralNetworks/FaceRecognition) – Developed a face recognition system utilizing FaceNet, achieving high accuracy in identifying and verifying individuals across diverse datasets.
+* [Text summarization using HuggingFace Transformer library](https://github.com/rvraghvender/Text_Summarizer_end-to-end_nlp_project) – Employed state-of-the-art natural language processing techniques to automate and enhance an end-to-end text summarization pipeline for efficient information extraction using natural language processing (NLP) techniques.
+* Named-Entity Recognition (NER) to Process Resumes – Developed a resume processing tool utilizing NER, streamlining the extraction of key information from resumes for effective candidate evaluation using NLP techniques.
+* [Question Answering](https://github.com/rvraghvender/transformer_question_answering) – Implemented an end-to-end question-answering pipeline system, enabling accurate extraction of relevant information from textual sources through advanced NLP techniques.
+
+
+## Interested links
+* [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/): The blog post presents nice explanation of working of LSTM Networks
+* [Keras blog: A ten-minute introduction to sequence-to-sequence learning in Keras](https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html): This is official Keras blog. This is something I have found best for beginners to understand sequence-to-sequence learning.
+* [How to Use Word Embedding Layers for Deep Learning with Keras](https://machinelearningmastery.com/use-word-embedding-layers-deep-learning-keras/): This is another interesting place to learn word embeddings.
+* [MongoDB](https://neetcode.io/courses/lessons/mongodb): Nice basic understanding with examples of MongoDB.
+
+  
+## Tips and hints
+
+<!---
 ## Locations of key files/directories
 
 * Basic config options: _config.yml
@@ -261,4 +285,5 @@ This allows you to denote <var>variables</var>.
 **Footnotes**
 
 The footnotes in the page will be returned following this line, return to the section on <a href="#footnotes">Markdown Footnotes</a>.
+--->
 
