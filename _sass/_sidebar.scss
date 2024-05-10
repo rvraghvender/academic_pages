@@ -114,10 +114,12 @@
     padding-right: 0;
   }
 
-  @include breakpoint($small) { // Use for smaller screens
+   /*
+   @include breakpoint($small) { // Use for smaller screens
     padding-top: 20px; // Add space above the text if image is above
     text-align: center; // Center text if image is full width
   }
+   */
 }
 
 
