@@ -84,10 +84,11 @@
     max-width: 175px;
     border-radius: 0; // Rectangular shape
 
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
-    }
+      @include breakpoint($large) {
+       display: block;
+       width: auto;
+       height: auto;
+     }
   }
 
   @include breakpoint($small) { // Adjust breakpoints according to your theme
