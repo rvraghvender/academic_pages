@@ -26,12 +26,26 @@ Work experience
   
 Skills
 ======
-* Python
-* C++
-* FORTRAN
-* LATEX
-* TensorFlow
-* Pytorch
+* Density Functional codes
+    - VASP,
+    - CP2K
+    - Quantum Espresso
+* Classical Molecular Dynamics Simulation Software
+    - LAMMPS
+    - DLPOLY
+* Programming languages
+    - Python
+    - C++
+    - FORTRAN
+    - Linux (BASH)
+    - SQL
+* Machine Learning frameworks
+    - TensorFlow
+    - PyTorch
+    - Scikit-learn
+* GPU (CUDA)
+* OpenMP libraries
+* CMAKE
 
 Publications
 ======
@@ -53,4 +67,14 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* JAM is a national-level exam for admission test to the M.Sc. program jointly conducted by IITs and IISc. My All-India Rank (AIR) is 231.
+* Joint Entrance Screening Test to M.Sc. conducted by IISERs, I secured 95 AIR in 2016.
+* Obtained the 3rd best poster award at an international online poster presentation.
+* Designed the front cover for a peer-reviewed scientific journal that was selected and published.
+
+  
+Online certifications
+======
+* IBM Data Science
+* DeepLearning.AI
+* AWS: Essential training for developers
