@@ -93,7 +93,6 @@
   img {
     max-width: 175px;
     border-radius: 0; // Changed from 50% to 0 for a rectangular shape
-    margin-left: 30px;
 
     @include breakpoint($large) {
       padding: 5px;
