@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Computational materials science, GitHub University, 2023
+* Ph.D in Computational Materials Science, IRCER UMR 7315 CNRS (University of Limoges), 2023
 * M.Sc. in Physics, Satyendra Nath Bose National Center for Basic Science (University of Calcutta), 2018
 * B.Sc. in Physics, Sharda University, 2012
 
@@ -26,23 +26,14 @@ Work experience
   
 Skills
 ======
-* Density Functional codes
-    - VASP,
-    - CP2K
-    - Quantum Espresso
-* Classical Molecular Dynamics Simulation Software
-    - LAMMPS
-    - DLPOLY
-* Programming languages
-    - Python
-    - C++
-    - FORTRAN
-    - Linux (BASH)
-    - SQL
-* Machine Learning frameworks
-    - TensorFlow
-    - PyTorch
-    - Scikit-learn
+* **Density Functional codes**
+    - VASP, CP2K & Quantum Espresso
+* **Classical molecular dynamics simulation software**
+    - LAMMPS & DLPOLY
+* **Programming languages**
+    - Python, C++, FORTRAN, Linux (BASH), SQL (MySQL) & NoSQL (MongoDB)
+* **Machine Learning frameworks**
+    - TensorFlow, PyTorch & Scikit-learn
 * GPU (CUDA)
 * OpenMP libraries
 * CMAKE
