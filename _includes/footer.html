@@ -14,19 +14,15 @@
         <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
       {% endif %}
       {% if site.atom_feed.hide != true %}
-      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+        <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
       {% endif %}
-
-        <!-- Contact Me Link -->
-        <div class="page__footer-contact" style="text-align: right;">
+      <!-- Contact Me Link -->
+      <li class="contact-me">
         <a href="mailto:your.email@example.com">Contact Me</a>
-        </div>
-      
+      </li>
     </ul>
   </div>
   {% endif %}
-
-
 </div> <!-- End of Flex container -->
 
 
