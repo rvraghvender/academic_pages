@@ -13,7 +13,5 @@ Getting started
 ======
 I keep posting interesting stuff. Do check this website regularly for exciting things in the world of materials science, machine learning, and computations-related things. 
 
-**Markdown generator**
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator) 
 
