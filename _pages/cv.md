@@ -17,13 +17,9 @@ Education
 
 Work experience
 ======
-* Junior research fellow (JRF), 2018
-  * Satyendra Nath Bose National Center for Basic Science
+* Junior research fellow (JRF), Satyendra Nath Bose National Center for Basic Science, 2018-19
+* Research engineer, IRCER UMR 7315 CNRS, France, 2023
 
-* Research engineer, 2023
-  * IRCER UMR 7318 (CNRS), France
-
-  
 Skills
 ======
 * **Density Functional codes**
@@ -44,17 +40,17 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Conferences & Seminars
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+# Teaching
+# ======
+#  <ul>{% for post in site.teaching reversed %}
+#    {% include archive-single-cv.html %}
+#  {% endfor %}</ul>
   
 Service and leadership
 ======
