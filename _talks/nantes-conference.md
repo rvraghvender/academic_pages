@@ -1,7 +1,7 @@
 ---
-title: "Ab-Initio study of the structural and electronic properties of TeO2 glass and melt"
-collection: talks
-type: "Talk"
+title: "Ab-Initio study of the structural and electronic properties of TeO<sub>2</sub> glass and melt"
+collection: Oral presentation
+type: "Oral presentation"
 permalink: /talks/nantes-conference
 venue: "Société Chimique de France"
 date: 2023-06-08
