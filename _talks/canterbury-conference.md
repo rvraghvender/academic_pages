@@ -1,6 +1,6 @@
 ---
 title: "Atomic-scale modelling of tellurium oxide glass: network topology and third-order non-linear properties"
-collection: talks
+collection: Oral presentation
 type: "Oral presentation"
 permalink: /talks/canterbury-conference
 venue: "Society of glass technology"
