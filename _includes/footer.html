@@ -16,14 +16,17 @@
       {% if site.atom_feed.hide != true %}
       <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
       {% endif %}
+
+        <!-- Contact Me Link -->
+        <div class="page__footer-contact" style="text-align: right;">
+        <a href="mailto:your.email@example.com">Contact Me</a>
+        </div>
+      
     </ul>
   </div>
   {% endif %}
 
-  <!-- Contact Me Link -->
-  <div class="page__footer-contact">
-      <a href="mailto:your.email@example.com">Contact Me</a>
-  </div>
+
 </div> <!-- End of Flex container -->
 
 
