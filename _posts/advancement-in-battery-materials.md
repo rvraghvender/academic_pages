@@ -1,7 +1,7 @@
 ---
 title: 'Advancements in Battery Materials: A Computational Perspective'
 date: 2024-05-10
-permalink: /posts/advancement-in-battery-materials
+permalink: /posts/2024/05/advancement-in-battery-materials
 tags:
   - cool posts
   - battery-materials
