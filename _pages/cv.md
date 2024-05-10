@@ -46,12 +46,14 @@ Conferences & Seminars
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-# Teaching
+<!---
+ Teaching
 # ======
 #  <ul>{% for post in site.teaching reversed %}
 #    {% include archive-single-cv.html %}
 #  {% endfor %}</ul>
-  
+--->
+
 Service and leadership
 ======
 * JAM is a national-level exam for admission test to the M.Sc. program jointly conducted by IITs and IISc. My All-India Rank (AIR) is 231.
