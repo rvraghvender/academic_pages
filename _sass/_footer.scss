@@ -84,9 +84,19 @@
     font-weight: bold;
   }
 
-  .social-icons {
+
+    .social-icons {
+    display: flex;  // Enables flexbox
+    justify-content: space-between; // Distributes space between and around items
+    align-items: center; // Vertically centers items
+    width: 100%; // Ensures it spans the full width
+
     a {
-      white-space: nowrap;
+      white-space: nowrap; // Keeps the anchor text on one line
     }
-  }
+
+    .contact-me {
+      margin-left: auto; // Pushes the Contact Me link to the right
+    }
+  } 
 }
