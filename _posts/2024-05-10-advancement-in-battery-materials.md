@@ -3,9 +3,9 @@ title: 'Advancements in Battery Materials: A Computational Perspective'
 date: 2024-05-10
 permalink: /posts/2024/05/advancement-in-battery-materials/
 tags:
-  - cool posts
+  - lithium-ion batteries
   - battery-materials
-  - category2
+  - solid-state batteries
 ---
 
 In recent years, the quest for efficient, sustainable, and high-performance batteries has intensified, driven by the global shift towards renewable energy sources and the escalating demand for electric vehicles (EVs). The role of computational material science in this pursuit cannot be overstated. This field merges theoretical chemistry, physics, and advanced computational techniques to predict and improve the properties of materials used in batteries. This blog post explores significant advancements in battery materials from a computational perspective, highlighting how these innovations pave the way for the future of energy storage.
