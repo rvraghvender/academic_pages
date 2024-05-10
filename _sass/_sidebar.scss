@@ -79,24 +79,22 @@
   display: table-cell;
   vertical-align: top;
   width: 36px;
+  // set width only, for non-square avatars
+  // height: 36px;
+
+  @include breakpoint($large) {
+    display: block;
+    width: auto;
+    height: auto;
+  }
 
   img {
     max-width: 175px;
-    border-radius: 0; // Rectangular shape
+    border-radius: 50%;
 
-      @include breakpoint($large) {
-       display: block;
-       width: auto;
-       height: auto;
-     }
-  }
-
-  @include breakpoint($small) { // Adjust breakpoints according to your theme
-    display: block; // Change display for smaller screens
-    width: 100%; // Take full width to avoid squeezing
-    img {
-      max-width: 100%; // Ensure the image scales down correctly
-      margin: 0 auto; // Center the image if necessary
+    @include breakpoint($large) {
+      padding: 5px;
+      border: 1px solid $border-color;
     }
   }
 }
@@ -114,15 +112,10 @@
     padding-left: 0;
     padding-right: 0;
   }
-
-   @include breakpoint($small) { // Use for smaller screens
-    padding-top: 20px; // Add space above the text if image is above
-    text-align: center; // Center text if image is full width
-  }
 }
 
 
-
+/* ------------------------------------------------- */
 .author__name {
   margin: 0;
 
