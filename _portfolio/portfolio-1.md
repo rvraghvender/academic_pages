@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/PhD_defense.jpg'>"
+title: "PhD Defense"
+excerpt: "This photo was taken during my PhD defense at the Institute of Research on Ceramics (IRCER). I was engaged in answering questions posed by the examiner. 1<br/><img src='/images/PhD_defense.jpg'  width='500' height='300' style='border:2px solid black;'>"
 collection: portfolio
 ---
 
