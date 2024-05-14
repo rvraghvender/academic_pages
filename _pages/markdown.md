@@ -27,6 +27,7 @@ redirect_from:
 * [Keras blog: A ten-minute introduction to sequence-to-sequence learning in Keras](https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html): This is official Keras blog. This is something I have found best for beginners to understand sequence-to-sequence learning.
 * [How to Use Word Embedding Layers for Deep Learning with Keras](https://machinelearningmastery.com/use-word-embedding-layers-deep-learning-keras/): This is another interesting place to learn word embeddings.
 * [MongoDB](https://neetcode.io/courses/lessons/mongodb): Nice basic understanding with examples of MongoDB.
+* [The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/): Explains the magic behind RNN's working in-depth.
 
   
 ## Tips and hints
