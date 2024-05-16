@@ -180,8 +180,8 @@
   color: #333; // Softer text color
 
   @include breakpoint($large) {
-    margin-top: 5px;
-    margin-bottom: 20px;
+    //margin-top: 5px;
+    //margin-bottom: 20px;
   }
 }
 
