@@ -155,16 +155,10 @@
 
 /* Add this new section to specifically target the Follows button */
 .author__urls-wrapper {
-  position: relative;
   display: flex;
-  justify-content: flex-end; /* Aligns the button to the right */
   align-items: center; /* Vertically center the items */
-  // float: right;
 
-  .author__urls {
-    margin-left: auto; /* Pushes the ul to the right */
+  button.btn--inverse {
+    margin-left: auto; /* Pushes the button to the right */
   }
-
 }
-
-
