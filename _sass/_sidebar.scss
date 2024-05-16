@@ -2,9 +2,7 @@
    SIDEBAR
    ========================================================================== */
 
-/*
-   Default
-   ========================================================================== */
+/* Default Styles for Sidebar */
 .sidebar {
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
@@ -54,9 +52,7 @@
   }
 }
 
-/*
-   Right Sidebar
-   ========================================================================== */
+/* Styles for Right Sidebar */
 .sidebar__right {
   margin-bottom: 1em;
 
@@ -73,9 +69,7 @@
   }
 }
 
-/*
-   Author Profile and Links
-   ========================================================================== */
+/* Styles for Author Profile and Links */
 .author__avatar {
   display: table-cell;
   vertical-align: top;
@@ -101,17 +95,20 @@
 .author__content {
   display: table-cell;
   vertical-align: top;
-  padding: 0 25px 0 15px;
+  padding-left: 15px;
+  padding-right: 25px;
   line-height: 1;
 
   @include breakpoint($large) {
     display: block;
     width: 100%;
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
-.author__name, .author__pronouns, .author__bio {
+/* Author Name */
+.author__name {
   margin: 0;
 
   @include breakpoint($large) {
@@ -120,17 +117,12 @@
   }
 }
 
-.author__bio {
-  @include breakpoint($large) {
-    margin-bottom: 20px;
-  }
-}
-
 .sidebar .author__name {
   font-family: $sans-serif;
   font-size: $type-size-5;
 }
 
+/* Desktop Specific Styles for Author Name */
 .sidebar .author__desktop {
   display: none;
 
@@ -139,9 +131,27 @@
   }
 }
 
-/*
-   Author URLs
-   ========================================================================== */
+/* Author Pronouns */
+.author__pronouns {
+  margin: 0;
+
+  @include breakpoint($large) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Author Bio */
+.author__bio {
+  margin: 0;
+
+  @include breakpoint($large) {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Styles for Author URLs Wrapper */
 .author__urls-wrapper {
   position: relative;
   display: table-cell;
@@ -150,8 +160,10 @@
   z-index: 10;
   cursor: pointer;
 
-  li:last-child a {
-    margin-bottom: 0;
+  li:last-child {
+    a {
+      margin-bottom: 0;
+    }
   }
 
   @include breakpoint($large) {
@@ -167,6 +179,7 @@
   }
 }
 
+/* Styles for Author URLs */
 .author__urls {
   display: none;
   position: absolute;
@@ -190,27 +203,36 @@
     box-shadow: none;
   }
 
-  &:before, &:after {
+  &:before {
     display: block;
     content: "";
     position: absolute;
-    top: -10px;
+    top: -11px;
     left: calc(50% - 10px);
+    width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
-    
+    border-color: $border-color transparent;
+
     @include breakpoint($large) {
       display: none;
     }
   }
 
-  &:before {
-    border-color: $border-color transparent;
-    top: -11px; // Adjust position for border color
-  }
-
   &:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: calc(50% - 10px);
+    width: 0;
+    border-style: solid;
+    border-width: 0 10px 10px;
     border-color: #fff transparent;
+
+    @include breakpoint($large) {
+      display: none;
+    }
   }
 
   li {
@@ -220,7 +242,9 @@
   a {
     display: block;
     margin-bottom: 5px;
-    padding: 2px 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
