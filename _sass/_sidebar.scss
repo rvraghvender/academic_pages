@@ -9,9 +9,9 @@
   @include clearfix();
   margin-bottom: 1em;
   background-color: #ffffff; // White background for clean look
-  padding: 20px; // Added padding for better spacing
-  border-radius: 8px; // Rounded corners for a modern look
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
+  padding: 25px; // Increased padding for better spacing
+  border-radius: 12px; // More rounded corners for a modern look
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); // Slightly stronger shadow for depth
 
   @media screen and (min-width: $sidebar-screen-min-width) {
     height: 100vh;
@@ -37,25 +37,25 @@
   }
 
   h2, h3, h4, h5, h6 {
-    margin-bottom: 0.5em; // Space below headings
+    margin-bottom: 0.6em; // Increased space below headings
     font-family: 'Montserrat', sans-serif; // Modern font family
     color: #333; // Dark color for better readability
   }
 
   h3, h4 {
-    font-size: $type-size-5;
+    font-size: $type-size-4; // Increased font size for subheadings
   }
 
   p, li {
     font-family: 'Open Sans', sans-serif; // Clean and readable font
-    font-size: $type-size-6;
-    line-height: 1.6; // Improved line height for readability
+    font-size: $type-size-5; // Increased font size for paragraphs and list items
+    line-height: 1.8; // Improved line height for readability
     color: #555; // Softer text color for contrast
   }
 
   img {
     width: 100%;
-    border-radius: 8px; // Rounded corners for images
+    border-radius: 12px; // More rounded corners for images
   }
 }
 
@@ -80,7 +80,7 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px; // Set width only, for non-square avatars
+  width: 48px; // Increased width for larger avatars
 
   @include breakpoint($large) {
     display: block;
@@ -89,7 +89,7 @@
   }
 
   img {
-    max-width: 175px;
+    max-width: 200px; // Increased max width for larger avatars
     border-radius: 50%; // Circular avatar for a modern look
 
     @include breakpoint($large) {
@@ -102,9 +102,9 @@
 .author__content {
   display: table-cell;
   vertical-align: top;
-  padding-left: 15px;
-  padding-right: 25px;
-  line-height: 1.4; // Slightly improved line height
+  padding-left: 20px;
+  padding-right: 30px;
+  line-height: 1.6; // Slightly improved line height
 
   @include breakpoint($large) {
     display: block;
@@ -117,7 +117,7 @@
 .author__name {
   margin: 0;
   font-family: 'Montserrat', sans-serif; // Consistent with headings
-  font-size: $type-size-5;
+  font-size: $type-size-4; // Increased font size for author name
   color: #333; // Darker text color
 
   @include breakpoint($large) {
@@ -128,7 +128,7 @@
 
 .sidebar .author__name {
   font-family: 'Montserrat', sans-serif;
-  font-size: $type-size-5;
+  font-size: $type-size-4;
 }
 
 .sidebar .author__desktop {
@@ -201,7 +201,7 @@
   border-radius: $border-radius;
   background: #fff;
   z-index: -1;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); // Slightly stronger shadow for depth
 
   @include breakpoint($large) {
     display: block;
@@ -256,7 +256,7 @@
     padding-top: 2px;
     padding-bottom: 2px;
     color: #007bff; // Bootstrap primary color for links
-    font-size: $type-size-5;
+    font-size: $type-size-4; // Increased font size for links
     text-decoration: none;
 
     &:hover {
