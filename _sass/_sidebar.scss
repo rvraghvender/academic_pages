@@ -40,6 +40,7 @@
     margin-bottom: 0.6em; // Increased space below headings
     font-family: 'Montserrat', sans-serif; // Modern font family
     color: #333; // Dark color for better readability
+    text-align: center; //
   }
 
   h3, h4 {
@@ -51,6 +52,7 @@
     font-size: $type-size-6; // Increased font size for paragraphs and list items
     //line-height: 1.6; // Improved line height for readability
     color: #555; // Softer text color for contrast
+    text-align: center; //
   }
 
   img {
@@ -91,6 +93,8 @@
   img {
     max-width: 200px; // Increased max width for larger avatars
     border-radius: 50%; // Circular avatar for a modern look
+    display: block; // 
+    margin: 0 auto; // 
 
     @include breakpoint($large) {
       padding: 5px;
@@ -100,11 +104,12 @@
 }
 
 .author__content {
-  display: table-cell;
+  display: block;
+  text-block: center; // 
   vertical-align: top;
-  padding-left: 25px;
-  padding-right: 25px;
-  // line-height: 1.6; // Slightly improved line height
+  padding-left: 0px; //
+  padding-right: 0px; //
+  line-height: 1.6; // Slightly improved line height
 
   @include breakpoint($large) {
     display: block;
@@ -145,6 +150,7 @@
   margin: 0;
   font-family: 'Open Sans', sans-serif; // Consistent with paragraphs
   color: #555; // Softer text color
+  text-align: center; //
 
   @include breakpoint($large) {
     margin-top: 10px;
