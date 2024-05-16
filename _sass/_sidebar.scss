@@ -108,6 +108,8 @@
 
   @include breakpoint($large) {
     display: block;
+    text-align: center; //
+    line-height: 1.6; // 
     width: 100%;
     padding-left: 0;
     padding-right: 0;
