@@ -15,8 +15,7 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% assign counter = counter | plus: 1 %}
   <li>
-    <span style="font-weight: bold;">{{ counter }}.</span>
-    {{ post.title }} {% if post.excerpt %}<br />{{ post.excerpt }}{% endif %}
+    {% include archive-single.html %}
   </li>
 {% endfor %}
 </ol>
