@@ -153,3 +153,13 @@
 }
 
 
+.author__urls-wrapper {
+  position: relative;
+
+  .btn.btn--inverse {
+    float: right; /* Aligns the button to the right */
+    margin-right: 10px; /* Optional: Add some margin for better spacing */
+  }
+}
+
+
