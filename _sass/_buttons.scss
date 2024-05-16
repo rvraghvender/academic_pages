@@ -6,7 +6,7 @@
    Default button
    ========================================================================== */
 
-.btn--inverse {
+.btn {
   /* default button */
   display: inline-block;
   margin-bottom: 0.25em;
@@ -21,7 +21,6 @@
   border: 0 !important;
   border-radius: $border-radius;
   cursor: pointer;
-  float: right; //
 
   &:hover {
     background-color: mix(white, #000, 20%);
@@ -150,5 +149,14 @@
 
   &--small {
     font-size: $type-size-7;
+  }
+}
+
+/* Add this new section to specifically target the Follows button */
+.author__urls-wrapper {
+  position: relative;
+  
+  .btn--inverse {
+    float: right; /* Aligns the button to the right */
   }
 }
