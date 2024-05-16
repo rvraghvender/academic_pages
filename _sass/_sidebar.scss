@@ -8,6 +8,10 @@
           transform: translate3d(0, 0, 0);
   @include clearfix();
   margin-bottom: 1em;
+  background-color: #f8f9fa; // Light grey background for a modern look
+  padding: 1em; // Added padding for better spacing
+  border-radius: 8px; // Rounded corners for a softer look
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
 
   @media screen and (min-width: $sidebar-screen-min-width) {
     height: 100vh;
@@ -33,8 +37,9 @@
   }
 
   h2, h3, h4, h5, h6 {
-    margin-bottom: 0;
-    font-family: $sans-serif-narrow;
+    margin-bottom: 0.5em; // Added space below headings
+    font-family: 'Montserrat', sans-serif; // Modern font family
+    color: #333; // Darker color for better readability
   }
 
   h3, h4 {
@@ -42,13 +47,15 @@
   }
 
   p, li {
-    font-family: $sans-serif;
+    font-family: 'Open Sans', sans-serif; // Clean and readable font
     font-size: $type-size-6;
     line-height: 1.5;
+    color: #555; // Softer text color for better contrast
   }
 
   img {
     width: 100%;
+    border-radius: 8px; // Rounded corners for images
   }
 }
 
@@ -83,7 +90,7 @@
 
   img {
     max-width: 175px;
-    border-radius: 0%; // 0% for box shape
+    border-radius: 50%; // Circular avatar for a modern look
 
     @include breakpoint($large) {
       padding: 5px;
@@ -107,9 +114,11 @@
   }
 }
 
-/* Author Name */
 .author__name {
   margin: 0;
+  font-family: 'Montserrat', sans-serif; // Consistent with headings
+  font-size: $type-size-5;
+  color: #333; // Darker text color
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -118,11 +127,10 @@
 }
 
 .sidebar .author__name {
-  font-family: $sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: $type-size-5;
 }
 
-/* Desktop Specific Styles for Author Name */
 .sidebar .author__desktop {
   display: none;
 
@@ -131,9 +139,10 @@
   }
 }
 
-/* Author Pronouns */
 .author__pronouns {
   margin: 0;
+  font-family: 'Open Sans', sans-serif; // Consistent with paragraphs
+  color: #555; // Softer text color
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -141,9 +150,10 @@
   }
 }
 
-/* Author Bio */
 .author__bio {
   margin: 0;
+  font-family: 'Open Sans', sans-serif; // Consistent with paragraphs
+  color: #555; // Softer text color
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -156,7 +166,7 @@
   position: relative;
   display: table-cell;
   vertical-align: middle;
-  font-family: $sans-serif;
+  font-family: 'Open Sans', sans-serif;
   z-index: 10;
   cursor: pointer;
 
@@ -191,7 +201,7 @@
   border-radius: $border-radius;
   background: #fff;
   z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
 
   @include breakpoint($large) {
     display: block;
@@ -245,7 +255,7 @@
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
-    color: inherit;
+    color: #007bff; // Bootstrap primary color
     font-size: $type-size-5;
     text-decoration: none;
 
