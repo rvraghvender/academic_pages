@@ -106,10 +106,10 @@
 @media screen and (max-width: 600px) {
   /* Enlarging the image on mobile devices */
   .author__avatar {
-    width: 125px; /* Enlarged width for mobile */
+    width: 150px; /* Enlarged width for mobile */
   }
   .author__avatar img {
-    max-width: 125px; /* Enlarged max width for mobile */
+    max-width: 150px; /* Enlarged max width for mobile */
   }
 }
 
