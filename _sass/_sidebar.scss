@@ -41,17 +41,17 @@
     font-family: 'Montserrat', sans-serif; // Modern font family
     color: #333; // Dark color for better readability
     text-align: center; //
-    font-size: $type-size-4; // Unified font size for headings
+    font-size: $type-size-6; // Unified font size for headings
     line-height: 1.5; // Unified line height for headings
   }
 
   h3, h4 {
-    font-size: $type-size-4; // Increased font size for subheadings
+    font-size: $type-size-6; // Increased font size for subheadings
   }
 
   p, li {
     font-family: 'Open Sans', sans-serif; // Clean and readable font
-    font-size: $type-size-4; // Increased font size for paragraphs and list items
+    font-size: $type-size-6; // Increased font size for paragraphs and list items
     //line-height: 1.6; // Improved line height for readability
     color: #555; // Softer text color for contrast
   }
