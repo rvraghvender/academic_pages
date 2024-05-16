@@ -105,7 +105,7 @@
 
 .author__content {
   display: block;
-  text-block: center; // 
+  // text-block: center; // 
   vertical-align: top;
   padding-left: 0px; //
   padding-right: 0px; //
@@ -113,7 +113,7 @@
 
   @include breakpoint($large) {
     display: block;
-    text-align: center; //
+    // text-align: center; //
     // line-height: 1.6; // 
     width: 100%;
     padding-left: 0;
