@@ -125,7 +125,7 @@
   font-family: 'Montserrat', sans-serif; // Consistent with headings
   font-size: $type-size-4; // Increased font size for author name
   color: #333; // Darker text color
-  text-align: center; //
+  // text-align: center; //
 
   @include breakpoint($large) {
     // margin-top: 10px;
