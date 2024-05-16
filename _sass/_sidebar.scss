@@ -8,9 +8,9 @@
           transform: translate3d(0, 0, 0);
   @include clearfix();
   margin-bottom: 1em;
-  background-color: #f8f9fa; // Light grey background for a modern look
-  padding: 1em; // Added padding for better spacing
-  border-radius: 8px; // Rounded corners for a softer look
+  background-color: #ffffff; // White background for clean look
+  padding: 20px; // Added padding for better spacing
+  border-radius: 8px; // Rounded corners for a modern look
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
 
   @media screen and (min-width: $sidebar-screen-min-width) {
@@ -37,9 +37,9 @@
   }
 
   h2, h3, h4, h5, h6 {
-    margin-bottom: 0.5em; // Added space below headings
+    margin-bottom: 0.5em; // Space below headings
     font-family: 'Montserrat', sans-serif; // Modern font family
-    color: #333; // Darker color for better readability
+    color: #333; // Dark color for better readability
   }
 
   h3, h4 {
@@ -49,8 +49,8 @@
   p, li {
     font-family: 'Open Sans', sans-serif; // Clean and readable font
     font-size: $type-size-6;
-    line-height: 1.5;
-    color: #555; // Softer text color for better contrast
+    line-height: 1.6; // Improved line height for readability
+    color: #555; // Softer text color for contrast
   }
 
   img {
@@ -104,7 +104,7 @@
   vertical-align: top;
   padding-left: 15px;
   padding-right: 25px;
-  line-height: 1;
+  line-height: 1.4; // Slightly improved line height
 
   @include breakpoint($large) {
     display: block;
@@ -255,7 +255,7 @@
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
-    color: #007bff; // Bootstrap primary color
+    color: #007bff; // Bootstrap primary color for links
     font-size: $type-size-5;
     text-decoration: none;
 
