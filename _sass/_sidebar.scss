@@ -181,7 +181,7 @@
 
   @include breakpoint($large) {
     //margin-top: 5px;
-    //margin-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 
@@ -279,8 +279,8 @@
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
-    color: #333; // Bootstrap primary color for links
-    font-size: $type-size-4; // Increased font size for links
+    color: #333; 
+    font-size: $type-size-6; // Increased font size for links
     text-decoration: none;
 
     &:hover {
