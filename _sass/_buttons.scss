@@ -159,10 +159,7 @@
   display: flex;
   justify-content: flex-end; /* Aligns the button to the right */
   align-items: center; /* Vertically center the items */
-
-  .btn--inverse {
-    margin-right: 10px; /* Optional: Add some margin for better spacing */
-  }
+  float: right;
 }
 
 
