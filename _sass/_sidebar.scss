@@ -40,11 +40,11 @@
     margin-bottom: 0.6em; // Increased space below headings
     font-family: 'Montserrat', sans-serif; // Modern font family
     color: #333; // Dark color for better readability
-    // text-align: center; //
+    text-align: center; //
   }
 
   h3, h4 {
-    font-size: $type-size-5; // Increased font size for subheadings
+    font-size: $type-size-4; // Increased font size for subheadings
   }
 
   p, li {
@@ -52,7 +52,7 @@
     font-size: $type-size-6; // Increased font size for paragraphs and list items
     //line-height: 1.6; // Improved line height for readability
     color: #555; // Softer text color for contrast
-    text-align: center; //
+    // text-align: center; //
   }
 
   img {
