@@ -97,7 +97,7 @@
     margin: 0 auto; // 
 
     @include breakpoint($large) {
-      //padding: 5px;
+      padding: 5px;
       border: 1px solid $border-color;
     }
   }
@@ -105,7 +105,7 @@
 
 .author__content {
   display: block;
-  // text-block: center; // 
+  text-block: center; // 
   vertical-align: top;
   padding-left: 0px; //
   padding-right: 0px; //
