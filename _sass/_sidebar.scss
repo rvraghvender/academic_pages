@@ -103,6 +103,16 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  /* Enlarging the image on mobile devices */
+  .author__avatar {
+    width: 80px; /* Enlarged width for mobile */
+  }
+  .author__avatar img {
+    max-width: 80px; /* Enlarged max width for mobile */
+  }
+}
+
 .author__content {
   display: block;
   text-block: center; // 
