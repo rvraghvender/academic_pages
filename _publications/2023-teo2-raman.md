@@ -1,7 +1,7 @@
 ---
 title: "Ab-Initio Study of the Raman Spectra of Amorphous Oxides: Insights into the Boson Peak Nature in Glassy TeO<sub>2</sub>"
 collection: publications
-permalink: /publications/2023-teo2-raman.md
+permalink: /publications/2023-teo2-raman
 excerpt: ''
 date: 14-February-2023
 venue: 'physica status solidi (RRL) – Rapid Research Letters'
