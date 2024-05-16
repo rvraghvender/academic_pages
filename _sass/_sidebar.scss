@@ -102,9 +102,9 @@
 .author__content {
   display: table-cell;
   vertical-align: top;
-  padding-left: 20px;
-  padding-right: 30px;
-  line-height: 1.6; // Slightly improved line height
+  padding-left: 25px;
+  padding-right: 25px;
+  // line-height: 1.6; // Slightly improved line height
 
   @include breakpoint($large) {
     display: block;
