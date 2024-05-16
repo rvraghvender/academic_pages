@@ -80,12 +80,12 @@
 
 /* Styles for Author Profile and Links */
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
+  display: block;
+  //vertical-align: top;
+   margin: 0 auto 15px; //
   width: 48px; // Increased width for larger avatars
 
   @include breakpoint($large) {
-    display: block;
     width: auto;
     height: auto;
   }
