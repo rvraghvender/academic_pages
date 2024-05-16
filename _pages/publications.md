@@ -15,10 +15,8 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% assign counter = counter | plus: 1 %}
   <li>
-    {% capture publication_with_number %}
-      <span style="font-weight: bold;">{{ counter }}.</span> {% include archive-single.html %}
-    {% endcapture %}
-    {{ publication_with_number | strip_newlines }}
+    <span style="font-weight: bold; display: inline;">{{ counter }}.</span>
+    <span style="display: inline;">{% include archive-single.html %}</span>
   </li>
 {% endfor %}
 </ol>
