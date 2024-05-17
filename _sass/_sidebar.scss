@@ -178,7 +178,7 @@
   margin: 0;
   font-family: 'Open Sans', sans-serif; // Consistent with paragraphs
   color: #333; // Softer text color
-   padding-left: 25px;
+  text-align: center;
 
   @include breakpoint($large) {
     //margin-top: 5px;
