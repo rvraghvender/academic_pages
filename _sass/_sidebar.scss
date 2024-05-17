@@ -139,7 +139,7 @@
 .author__name {
   margin: 0;
   font-family: 'Montserrat', sans-serif; // Consistent with headings
-  font-size: $type-size-4; // Increased font size for author name
+  font-size: $type-size-4; // Increased font size for author-name
   color: #333; // Darker text color
   text-align: center; //
 
@@ -178,6 +178,7 @@
   margin: 0;
   font-family: 'Open Sans', sans-serif; // Consistent with paragraphs
   color: #333; // Softer text color
+   padding-left: 25px;
 
   @include breakpoint($large) {
     //margin-top: 5px;
