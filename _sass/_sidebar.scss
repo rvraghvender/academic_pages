@@ -210,7 +210,7 @@ margin: 0 auto 15px; //
   }
 
   button {
-    margin-bottom: 0;
+    margin-bottom: 10px;
 
     @include breakpoint($large) {
       display: none;
