@@ -107,23 +107,17 @@ margin: 0 auto 15px; //
 @media screen and (max-width: 600px) {
   /* Enlarging the image on mobile devices */
   .author__avatar {
-    padding-top: 25px; /* Padding around the container */
-    display: flex; /* Use flex to center the image */
-    justify-content: center;
+    margin: 0 auto;
+    width: 175px; /* Enlarged width for mobile */
   }
-
   .author__avatar img {
-    width: 175px; /* Set width of the image */
-    height: 175px; /* Set height of the image */
-    max-width: 100%; /* Ensure it scales correctly */
-    border-radius: 50%; /* Make the image round */
-    object-fit: cover; /* Ensure the image covers the container area */
+    max-width: 175px; /* Enlarged max width for mobile */
   }
-
   .author__bio {
     text-align: center;
   }
 }
+
 
 
 
