@@ -107,7 +107,8 @@ margin: 0 auto 15px; //
 @media screen and (max-width: 600px) {
   /* Enlarging the image on mobile devices */
   .author__avatar {
-    margin: 0 auto 25px;
+     margin: 0 auto;
+     padding-top: 10px; //
     width: 175px; /* Enlarged width for mobile */
   }
   .author__avatar img {
