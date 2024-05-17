@@ -153,12 +153,3 @@
 }
 
 
-/* Add this new section to specifically target the Follows button */
-.author__urls-wrapper {
-  display: flex;
-  align-items: center; /* Vertically center the items */
-
-  button.btn--inverse {
-    margin-left: auto; /* Pushes the button to the right */
-  }
-}
