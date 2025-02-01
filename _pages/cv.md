@@ -9,30 +9,35 @@ redirect_from:
 
 {% include base_path %}
 
+Work Experience
+======
+- **Research Engineer, Predeeption (Startup)**  
+  Developing advanced deep learning solutions for battery life-cycle prediction.
+- **Research Engineer, IRCER UMR 7315 CNRS, France (2023)**  
+  Conducted computational modeling of materials using machine learning techniques.
+- **Junior Research Fellow (JRF), Satyendra Nath Bose National Center for Basic Science (2018-19)**  
+  Worked on computational studies in material science.
+
 Education
 ======
-* Ph.D in Computational Materials Science, IRCER UMR 7315 CNRS (University of Limoges), 2023
-* M.Sc. in Physics, Satyendra Nath Bose National Center for Basic Science (University of Calcutta), 2018
-* B.Sc. in Physics, Sharda University, 2012
+- **Ph.D. in Computational Materials Science**  
+  *IRCER UMR 7315 CNRS (University of Limoges), 2023*
+- **M.Sc. in Physics**  
+  *Satyendra Nath Bose National Center for Basic Science (University of Calcutta), 2018*
+- **B.Sc. in Physics**  
+  *Sharda University, 2012*
 
-Work experience
-======
-* Junior research fellow (JRF), Satyendra Nath Bose National Center for Basic Science, 2018-19
-* Research engineer, IRCER UMR 7315 CNRS, France, 2023
 
 Skills
 ======
-* **Density Functional codes**
-    - VASP, CP2K & Quantum Espresso
-* **Classical molecular dynamics simulation software**
-    - LAMMPS & DLPOLY
+* **Computational and Deep Learning Techniques**
+    - Time-series prediction, AutoEncoders, Variational AutoEncoders (VAE)
 * **Programming languages**
-    - Python, C++, FORTRAN, Linux (BASH), SQL (MySQL) & NoSQL (MongoDB)
+    - Python, C++, Bash (Linux) 
+    - SQL (PostgreSQL) & NoSQL (MongoDB)
 * **Machine Learning frameworks**
     - TensorFlow, PyTorch & Scikit-learn
-* GPU (CUDA)
-* OpenMP libraries
-* CMAKE
+
 
 Publications
 ======
@@ -45,21 +50,14 @@ Conferences & Seminars
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
-<!---
- Teaching
-# ======
-#  <ul>{% for post in site.teaching reversed %}
-#    {% include archive-single-cv.html %}
-#  {% endfor %}</ul>
---->
 
-Service and leadership
+
+Achievements & Awards
 ======
-* JAM is a national-level exam for admission test to the M.Sc. program jointly conducted by IITs and IISc. My All-India Rank (AIR) is 231.
-* Joint Entrance Screening Test to M.Sc. conducted by IISERs, I secured 95 AIR in 2016.
-* Obtained the 3rd best poster award at an international online poster presentation.
-* Designed the front cover for a peer-reviewed scientific journal that was selected and published.
+- Secured **All-India Rank (AIR) 231** in **JAM**, a national-level admission test for M.Sc. programs conducted by IITs and IISc.
+- Achieved **AIR 95** in the **Joint Entrance Screening Test (JEST)** for M.Sc. conducted by IISERs (2016).
+- Awarded **3rd Best Poster Award** at an international online poster presentation.
+- Designed the **front cover of a peer-reviewed scientific journal**, which was selected and published.
 
   
 Online certifications
