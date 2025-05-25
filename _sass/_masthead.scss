@@ -1,58 +1,126 @@
 /* ==========================================================================
-   MASTHEAD
+   HEADER STYLESHEET — CLEAN & MATCHED WITH FOOTER
    ========================================================================== */
 
+/*------------------------------
+  Variables
+------------------------------*/
+$masthead-bg: $lighter-gray !default; // Match footer background
+$masthead-border: 1px solid $light-gray;
+$masthead-padding: 1.0em 2em;
+$masthead-z: 20;
+$masthead-height: 4.5em !default;
+
+/*------------------------------
+  Masthead Container
+------------------------------*/
 .masthead {
   position: fixed;
-  background: white;
-  border-bottom: 1px solid $border-color;
-  height: $masthead-height;
   top: 0;
+  left: 0;
   width: 100%;
-
-  -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
-  -webkit-animation-delay: 0.15s;
-          animation-delay: 0.15s;
-  z-index: 20;
+  height: $masthead-height;
+  background-color: $masthead-bg;
+  border-bottom: $masthead-border;
+  z-index: $masthead-z;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  animation: intro 0.3s both 0.15s;
 
   &__inner-wrap {
     @include container;
-    @include clearfix;
-    padding: 1em 1em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.0em; // Adjusted for height
+    padding-bottom: 0em;
+    padding-left: 5em;
+    padding-right: 2em;
     font-family: $sans-serif-narrow;
+    background-color: $masthead-bg; // Ensure inner wrap matches
 
     @include breakpoint($x-large) {
       max-width: $x-large;
     }
 
     nav {
-      z-index: 10;
-    }
-
-    a {
-      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 2em;
+      background-color: $masthead-bg; // Ensure nav background matches
     }
   }
 }
 
+/*------------------------------
+  Navigation Menu
+------------------------------*/
 .masthead__menu {
-
+  background-color: $masthead-bg; // Ensure menu background matches
+  
   ul {
     margin: 0;
     padding: 0;
-    clear: both;
-    list-style-type: none;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    list-style: none;
+    background-color: $masthead-bg; // Ensure ul background matches
+  }
+
+  li {
+    display: block;
+    font-size: 1.1em;
+    white-space: nowrap;
+    background-color: $masthead-bg; // Ensure li background matches
+
+    a {
+      display: block;
+      padding: 0.5em 0.8em;
+      border-radius: 6px;
+      color: $text-color;
+      background-color: $masthead-bg; // Changed from transparent to match
+      text-decoration: none;
+      transition: background 0.2s, color 0.2s;
+
+      &:hover,
+      &:focus {
+        background-color: rgba($primary-color, 0.08);
+        color: $primary-color;
+        outline: none;
+      }
+
+      &:focus-visible {
+        outline: 2px solid $primary-color;
+        outline-offset: 2px;
+      }
+    }
   }
 }
 
-.masthead__menu-item {
-  display: block;
-  list-style-type: none;
-  white-space: nowrap;
+/*------------------------------
+  Large Brand Item
+------------------------------*/
+.masthead__menu-item--lg {
+  font-weight: bold;
+  font-size: 1.2em;
+}
 
-  &--lg {
-    padding-right: 3em;
-    font-weight: 700;
+/*------------------------------
+  Responsive: No hamburger
+------------------------------*/
+@media (max-width: 900px) {
+  .masthead__menu ul {
+    flex-wrap: wrap;
+    gap: 1.2em;
+    justify-content: center;
   }
+}
+
+/*------------------------------
+  Remove Hamburger Styles Entirely
+------------------------------*/
+.masthead__toggle {
+  display: none !important;
 }

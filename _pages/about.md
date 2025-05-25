@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
-I am a **Ph.D. graduate in Computational Materials Science** with a strong background in **machine learning, deep learning, and data-driven research**. Currently, I work as a **Research Engineer at Predeeption**, a startup focused on developing **deep learning solutions for battery life-cycle prediction**. My expertise spans **computational modeling, predictive analytics, and algorithm development**, leveraging **Python, C++, and SQL** to extract meaningful insights from complex data.
+## Bio
+I am a **Ph.D. graduate in Computational Materials Science** with a strong background in **machine learning, deep learning, and data-driven research**. Currently, I work as a **Research Engineer at PreDeeption**, a startup focused on developing **deep learning solutions for battery life-cycle prediction**. My expertise spans **computational modeling, predictive analytics, and algorithm development**, leveraging **Python, C++, and SQL** to extract meaningful insights from complex data.
 
 I am passionate about applying cutting-edge **AI-driven solutions** to real-world problems, particularly in materials science and energy storage. With a solid foundation in both **scientific research and software development**, I thrive in interdisciplinary environments where I can bridge the gap between theory and application.
 

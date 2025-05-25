@@ -11,7 +11,7 @@ redirect_from:
 
 Work Experience
 ======
-- **Research Engineer, Predeeption (Startup)**  
+- **Research Engineer, PreDeeption (Startup)**  
   Developing advanced deep learning solutions for battery life-cycle prediction.
 - **Research Engineer, IRCER UMR 7315 CNRS, France (2023)**  
   Conducted computational modeling of materials using machine learning techniques.

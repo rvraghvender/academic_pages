@@ -286,16 +286,16 @@ margin: 0 auto 15px; //
   a {
     display: block;
     margin-bottom: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-     // padding-left: 5px; //
+    padding: 5px 8px; // Added some horizontal padding
     color: #333; 
-    // font-size: $type-size-4; // Increased font size for links
     text-decoration: none;
+    border-radius: 8px; // Rounded corners for the hover box
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
+      background-color: #e9ecef; // Light gray background on hover
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
     }
   }
 }
