@@ -176,6 +176,10 @@
   position: relative;
   min-width: 250px;
   background: $background-color;
+  display: flex; /* Add flex container */
+  align-items: center; /* Vertically center items */
+  justify-content: space-between; /* Push items to start and end */
+
 
   a {
     display: block;
@@ -190,9 +194,9 @@
   }
 
   button {
-    position: absolute;
+    // position: absolute;
     height: 2.5rem;
-    right: 0;
+    // right: 1em;
     padding: 0 0.5rem;
     border: 0;
     outline: none;
