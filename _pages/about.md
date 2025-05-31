@@ -14,98 +14,106 @@ redirect_from:
     <em>Generative AI solutions for battery life-cycle prediction</em>.
   </p>
 
-<div class="model-techniques-box">
-  <h2>🧬 Generative Modeling Toolkit</h2>
-  <p>
-    I explore and design advanced generative models to tackle challenges in battery life-cycle prediction and beyond.
-  </p>
-  <div class="card-row">
-    <div class="card">
-      Latent Variable Models<br>
-      <small>(VAE family, including vector quantized and conditional variants)</small>
+</section>
+
+## 🧬 Generative Modeling Toolkit
+
+<p class="section-description">
+  I explore and design advanced generative models to tackle challenges in battery life-cycle prediction and beyond.
+</p>
+<div class="card-row">
+  <div class="card">
+    <div class="card-title">Latent Variable Models</div>
+    <div class="card-subtext">(VAE, VQ-VAE-2 and cVAE models)</div>
+  </div>
+  <div class="card">
+    <div class="card-title">Diffusion-Based Models</div>
+    <div class="card-subtext">(DDPM-style denoising models)</div>
+  </div>
+  <div class="card">
+    <div class="card-title">AutoRegressive Models</div>
+    <div class="card-subtext">(LSTM & Transformers over latent trajectories)</div>
+  </div>
+</div>
+
+
+<p>
+  With a strong foundation in both <strong>scientific research</strong> and <strong>software development</strong>,
+  I thrive at the intersection of data, algorithms, and real-world applications. I’m passionate about leveraging AI
+  to push the boundaries of what's possible — from energy technologies to intelligent systems.
+</p>
+
+
+## 🧠 Technical Skills
+<!-- TECHNICAL SKILLS SECTION -->
+<div class="skills-section">
+
+  <h3>Languages & Web APIs</h3>
+  <div class="skills-cluster">
+    <div class="skill-card">
+      <img class="skill-icon" src="/assets/icons/python.svg" alt="Python" />
+      <div class="skill-name">Python</div>
     </div>
-    <div class="card">
-      Diffusion-Based Models<br>
-      <small>(DDPM-style denoising models)</small>
+    <div class="skill-card">
+      <img class="skill-icon" src="/assets/icons/cpp.svg" alt="C++" />
+      <div class="skill-name">C++</div>
     </div>
-    <div class="card">
-      AutoRegressive Models<br>
-      <small>(LSTM, Transformers over latent trajectories)</small>
+    <div class="skill-card">
+      <img class="skill-icon" src="/assets/icons/fastapi.svg" alt="FastAPI" />
+      <div class="skill-name">FastAPI</div>
+    </div>
+    <div class="skill-card">
+      <img class="skill-icon" src="/assets/icons/flask.svg" alt="Flask" />
+      <div class="skill-name">Flask</div>
+    </div>
+  </div>
+
+  <h3>Frameworks & Libraries</h3>
+  <div class="skills-cluster">
+    <div class="skill-card">
+      <img class="skill-icon" src="/assets/icons/pytorch.svg" alt="PyTorch" />
+      <div class="skill-name">PyTorch</div>
+    </div>
+    <div class="skill-card">
+      <img class="skill-icon" src="/assets/icons/tensorflow.svg" alt="TensorFlow" />
+      <div class="skill-name">TensorFlow</div>
+    </div>
+    <div class="skill-card">
+      <img class="skill-icon" src="/assets/icons/scikit-learn.svg" alt="Scikit-Learn" />
+      <div class="skill-name">Scikit-Learn</div>
+    </div>
+    <div class="skill-card">
+      <img class="skill-icon" src="/assets/icons/opencv.svg" alt="OpenCV" />
+      <div class="skill-name">OpenCV</div>
+    </div>
+    <div class="skill-card">
+      <img class="skill-icon" src="/assets/icons/pandas.svg" alt="Pandas" />
+      <div class="skill-name">Pandas</div>
+    </div>
+  </div>
+
+  <h3>DevOps & Platforms</h3>
+  <div class="skills-cluster">
+    <div class="skill-card">
+      <img class="skill-icon" src="/assets/icons/docker.svg" alt="Docker" />
+      <div class="skill-name">Docker</div>
+    </div>
+    <div class="skill-card">
+      <img class="skill-icon" src="/assets/icons/aws.svg" alt="AWS" />
+      <div class="skill-name">AWS</div>
+    </div>
+    <div class="skill-card">
+      <img class="skill-icon" src="/assets/icons/git.svg" alt="Git" />
+      <div class="skill-name">Git</div>
+    </div>
+    <div class="skill-card">
+      <img class="skill-icon" src="/assets/icons/linux.svg" alt="Linux" />
+      <div class="skill-name">Linux</div>
     </div>
   </div>
 </div>
 
-  <p>
-    With a strong foundation in both <strong>scientific research</strong> and <strong>software development</strong>,
-    I thrive at the intersection of data, algorithms, and real-world applications. I’m passionate about leveraging AI
-    to push the boundaries of what's possible — from energy technologies to intelligent systems.
-  </p>
-</section>
----
-## 🧠 Technical Skills
-<div class="skills-box">
-  <figure>
-    <img src="/assets/icons/python.svg" alt="Python" />
-    <figcaption>Python</figcaption>
-  </figure>
 
-  <figure>
-    <img src="/assets/icons/cpp.svg" alt="C++" />
-    <figcaption>C++</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/assets/icons/postgresql.svg" alt="PostgreSQL" />
-    <figcaption>PostgreSQL</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/assets/icons/pytorch.svg" alt="PyTorch" />
-    <figcaption>PyTorch</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/assets/icons/tensorflow.svg" alt="TensorFlow" />
-    <figcaption>TensorFlow</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/assets/icons/linux.svg" alt="Linux" />
-    <figcaption>Linux</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/assets/icons/git.svg" alt="PyTorch" />
-    <figcaption>Git</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/assets/icons/opencv.svg" alt="PyTorch" />
-    <figcaption>OpenCV</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/assets/icons/docker.svg" alt="PyTorch" />
-    <figcaption>Docker</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/assets/icons/pandas.svg" alt="PyTorch" />
-    <figcaption>Pandas</figcaption>
-  </figure>
-
-
-  <figure>
-    <img src="/assets/icons/scikit-learn.svg" alt="PyTorch" />
-    <figcaption>SciKit-Learn</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/assets/icons/aws.svg" alt="PyTorch" />
-    <figcaption>AWS</figcaption>
-  </figure>
-
-</div>
 
 <div class="timeline-section">
   <h2>🧪 Work Experience</h2>
