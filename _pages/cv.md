@@ -9,34 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Work Experience
-======
-- **Research Engineer, PreDeeption (Startup)**  
-  Developing advanced deep learning solutions for battery life-cycle prediction.
-- **Research Engineer, IRCER UMR 7315 CNRS, France (2023)**  
-  Conducted computational modeling of materials using machine learning techniques.
-- **Junior Research Fellow (JRF), Satyendra Nath Bose National Center for Basic Science (2018-19)**  
-  Worked on computational studies in material science.
-
-Education
-======
-- **Ph.D. in Computational Materials Science**  
-  *IRCER UMR 7315 CNRS (University of Limoges), 2023*
-- **M.Sc. in Physics**  
-  *Satyendra Nath Bose National Center for Basic Science (University of Calcutta), 2018*
-- **B.Sc. in Physics**  
-  *Sharda University, 2012*
-
-
-Skills
-======
-* **Computational and Deep Learning Techniques**
-    - Time-series prediction, AutoEncoders, Variational AutoEncoders (VAE)
-* **Programming languages**
-    - Python, C++, Bash (Linux) 
-    - SQL (PostgreSQL) & NoSQL (MongoDB)
-* **Machine Learning frameworks**
-    - TensorFlow, PyTorch & Scikit-learn
 
 
 Publications
