@@ -12,7 +12,7 @@ title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Raghvender"
 description              : &description "personal description"
-url                      : https://rvraghvender.github.io
+url                      : https://raghvender.com
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rvraghvender/rvraghvender.github.io"
 
