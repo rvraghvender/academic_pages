@@ -163,8 +163,8 @@ redirect_from:
     <div class="timeline-item">
       <div class="timeline-marker"></div>
       <div class="timeline-content">
-        <h3>M.Sc. in Physics</h3>
-        <span class="timeline-place">S.N. Bose Centre / University of Calcutta</span>
+        <h3>Masters in Physics</h3>
+        <span class="timeline-place">S.N. Bose National Centre for Basic Sciences / University of Calcutta</span>
         <span class="timeline-date">2016 – 2018</span>
       </div>
     </div>
@@ -172,7 +172,7 @@ redirect_from:
     <div class="timeline-item">
       <div class="timeline-marker"></div>
       <div class="timeline-content">
-        <h3>B.Sc. in Physics</h3>
+        <h3>Bachelors in Physics</h3>
         <span class="timeline-place">Sharda University</span>
         <span class="timeline-date">2009 – 2012</span>
       </div>
